@@ -1,4 +1,4 @@
-# kching
+# kching (user sign up/login only)
 
 ![kching logo](http://i.imgur.com/0HV73sZ.png "kching logo")
 
