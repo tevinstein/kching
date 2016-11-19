@@ -1,0 +1,26 @@
+<div class="container-full text-center">
+    <div class="body">
+        <div class="container">
+            <div class="col-sm-8 col-sm-offset-2">
+                <% if (message.length > 0) { %>
+                    <div class="alert alert-success">
+                <%= message %>
+                    </div>
+                <% } %>
+                    <span class="fa fa-user"></span>
+                    <strong> User Id</strong>:
+                    <div class="well well-sm"><%= user._id %></div>
+                    <br>
+                    
+                    <strong>@ Email Address</strong>:
+                    <div class="well well-sm"><%= user.email %></div>
+                    <br>
+
+                    <span class="fa fa-lock"></span><strong> Password</strong>:
+                    <div class="well well-sm"><%= user.password %></div>
+
+                    <div><a href="/logout" class="btn btn-default btn-sm">Logout</a></div>
+            </div>
+        </div>
+    </div>
+</div>
